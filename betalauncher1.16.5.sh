@@ -69,7 +69,7 @@ mkdir drmatoi_minecrafthost16 && drmatoi_minecrafthost16
 
 cd drmatoi_minecrafthost16
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+wget -O server.jar https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar
 
 chmod +x server.jar
 
@@ -82,7 +82,7 @@ java -Xmx8G -Xms8G -jar server.jar nogui
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/Danchoimod/minecraft
 cd minecraft
 chmod +x betalauncher1.16.5.sh
 ./betalauncher1.16.5.sh

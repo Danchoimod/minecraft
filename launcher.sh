@@ -74,7 +74,7 @@ mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
 
 cd drmatoi_minecrafthost
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+wget -O server.jar https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar
 
 chmod +x server.jar
 
@@ -100,7 +100,7 @@ mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
 
 cd drmatoi_minecrafthost
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+wget -O server.jar https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar
 
 chmod +x server.jar
 
@@ -127,7 +127,7 @@ mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
 
 cd drmatoi_minecrafthost
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+wget -O server.jar https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar
 
 chmod +x server.jar
 
@@ -146,7 +146,7 @@ chmod +x launcher.sh
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/Danchoimod/minecraft
 cd minecraft
 chmod +x launcher.sh
 ./launcher.sh
