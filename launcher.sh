@@ -58,7 +58,7 @@ echo " "
 
     read ch
    if [ $ch -eq 1 ];then
-        pkg install openjdk-17
+        pkg install openjdk-21
 
 pkg install wget
 
@@ -84,7 +84,7 @@ java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     elif [ $ch -eq 2 ];then 
-    pkg install openjdk-17
+    pkg install openjdk-21
 
 pkg install wget
 
@@ -111,7 +111,7 @@ java -Xmx8G -Xms8G -jar server.jar nogui
 exit
 
     elif [ $ch -eq 3 ];then
-        pkg install openjdk-17
+        pkg install openjdk-21
 
 pkg install wget
 
